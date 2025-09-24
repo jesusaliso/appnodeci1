@@ -11,5 +11,6 @@ app.get('/', (req, res) => {
     message: '¡Hola mundo!',
   });
 });
-// No llames a app.listen aquí para tests; exporta app
-module.exports = app; // Exporta app para Supertest
+app.listen(port, () => {
+ console.log(`Servidor escuchando en http://localhost:${port}`);
+})
