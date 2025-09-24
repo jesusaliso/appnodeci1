@@ -2,7 +2,7 @@
   "name": "proyecto",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "apss.js",
   "scripts": {
     "start": "node app"
   },
